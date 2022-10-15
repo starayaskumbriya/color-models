@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css"> 
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>collor</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="firstCollar"> 
+            <select name="" id="fcid" class="viborCvetaStyle" onchange="firstChange();">
+                <!-- <option value=""></option> -->
+                <option value="RGB">RGB</option>
+                <option>XYZ</option>
+                <option>Lab</option>
+            </select>
+            <input type="text" class="pole" placeholder="R: " id="11">
+            <input type="text" class="pole" placeholder="G: " id="12">
+            <input type="text" class="pole" placeholder="B: " id="13">
+        </div> 
+        <div class="secondCollar">
+            <select name="" id="scid" class="viborCvetaStyle" onchange="firstChange();">
+                <!-- <option value=""></option> -->
+                <option value="RGB">RGB</option>
+                <option>XYZ</option>
+                <option>Lab</option>
+            </select>
+            <input type="text" class="pole" placeholder="R: " id="21">
+            <input type="text" class="pole" placeholder="G: " id="22">
+            <input type="text" class="pole" placeholder="B: " id="23">
+        </div>
+        <div class="moiCvet" id="moiCvet"></div> 
+    </div>
+
+    <script src="scripts/laba.js"> </script>
+</body>
+</html>
